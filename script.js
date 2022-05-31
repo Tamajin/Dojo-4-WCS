@@ -1,5 +1,5 @@
 // créer une fonction qui décompose une chaine de caractères dans un tableau avec objets.
-// mettre tout en minuscule et caracteres spéciaux.
+// mettre tout en minuscule et tentative de virer les caractères spéciaux.
 
 // méthode 1
 
@@ -20,7 +20,7 @@ function countLetters(word) {
 
 console.log( countLetters("cassse % tç`èèèteMPT") );
 
-// méthode 2 qui fonctionne pas bien lol!!!
+// méthode 2
 
 function countLettersBis(word){
    word = word.replace(/[&#,+()$~%'":*?<>!_\-{}|]/," ").split(" ").join("").toLowerCase();
